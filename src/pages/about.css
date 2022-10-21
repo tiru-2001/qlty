@@ -1,0 +1,17 @@
+.about-row {
+    height: calc(100vh-68px);
+    background-image: url("/public/images/about1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about-row {
+    height: 100vh
+}
+
+.about {
+    font-size: 3rem;
+    color: maroon;
+}

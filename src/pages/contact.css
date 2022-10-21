@@ -1,0 +1,17 @@
+.contact-row {
+    height: calc(100vh-68px);
+    background-image: url("/public/images/contact.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.contact-row {
+    height: 100vh
+}
+
+.contact {
+    font-size: 3rem;
+    color: maroon;
+}

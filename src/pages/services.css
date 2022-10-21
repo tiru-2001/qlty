@@ -1,0 +1,17 @@
+.service-row {
+    height: calc(100vh-68px);
+    background-image: url("/public/images/service1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.service-row {
+    height: 100vh
+}
+
+.service {
+    font-size: 3rem;
+    color: maroon;
+}

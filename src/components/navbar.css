@@ -1,0 +1,34 @@
+.navbar {
+    padding: 10px 20px;
+    background-color: rgba(16, 15, 15, 0.007);
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+}
+
+.navbar .nav-item {
+    color: white!important;
+    display: inline-block;
+    font-size: 1.2rem;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 40px;
+    /* color: greenyellow; */
+}
+
+.nav-item::after {
+    transition: all 500ms ease;
+    content: "";
+    width: 100%;
+    height: 3px;
+    transform: scale(0);
+    background-color: rgb(16, 209, 119);
+    display: block;
+}
+
+.nav-item:hover::after {
+    transform: scale(1);
+}

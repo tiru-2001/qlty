@@ -1,0 +1,114 @@
+@keyframes slide {
+    from {
+        transform: translateX(-1000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes slide2 {
+    from {
+        transform: translateX(1000px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+:root {
+    --main-color: rgb(154, 78, 12);
+}
+
+.home-row {
+    height: 100vh;
+    color: maroon;
+    padding: 20px;
+    font-family: var(--font);
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    background-image: url("/public/images/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.home-col {
+    padding: 10px;
+}
+
+.main-heading {
+    font-size: 3.5rem;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.subheading {
+    animation-name: slide2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1)
+}
+
+.sse {
+    padding: 30px;
+}
+
+.para {
+    line-height: 100px;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+
+/* .paras {
+    border: 2px solid green;
+}
+
+.fam-img {
+    border: 2px solid black;
+} */
+
+.imgs {
+    height: 10%;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.welco {
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+
+.facirow {
+    margin-top: 10px;
+}
+
+.facCol {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.facilities_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.facilitate {
+    color: rgb(154, 78, 12);
+    text-decoration: underline;
+}
+
+.icons {
+    font-size: 3rem;
+    color: salmon;
+}
+
+.icons:hover {
+    color: rgb(72, 42, 39)!important;
+}
