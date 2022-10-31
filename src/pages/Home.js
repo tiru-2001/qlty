@@ -43,7 +43,7 @@ const Home = () => {
             <div className="icons"><i className="fa-solid fa-wifi"></i></div>
           </div>
           <div className="fcchild">
-              <h2>home delivery within 20kms</h2>
+              <h2>home delivery within 10kms</h2>
              <div className="icons"> <i className="fa-solid fa-shield"></i></div>
           </div>
           <div className="fcchild">

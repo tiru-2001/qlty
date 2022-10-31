@@ -5,13 +5,37 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.contact-row {
-    height: 100vh
+    height: 100vh;
 }
 
 .contact {
     font-size: 3rem;
     color: maroon;
+    animation-name: margi;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.contactSub {
+    margin: 30px 0;
+    color: white;
+}
+
+.getheading {
+    color: rgb(154, 78, 12);
+}
+
+.gettouch {
+    padding: 20px 0px;
+    background-color: teal;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.touchSub {
+    padding: 20px 0px;
+}
+
+.numbersmail {
+    text-decoration: none;
+    color: white;
 }

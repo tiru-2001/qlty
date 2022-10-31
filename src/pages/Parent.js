@@ -7,7 +7,7 @@ import './parent.css'
 const Parent = () => {
   return (
     <>
-   <div className="containers">
+   <div className="containerss">
    <Navbar/>
    </div>
  

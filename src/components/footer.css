@@ -1,17 +1,56 @@
-.fonticons {
-    font-size: 5rem;
-    color: white;
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.fontsicons_container {
-    border: 2px solid salmon;
-    padding: 10px;
-    margin: 0px;
+.nav ul {
+    margin: auto 0;
 }
 
-.footer_row {
-    border: 2px solid green;
-    margin-top: 10px;
-    padding: 30px 0;
-    color: rgb(154, 78, 12);
+.co {
+    background-color: black;
+    padding: 20px;
+}
+
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+
+.footcol {
+    padding: 20px 0;
+}
+
+.signature {
+    font-size: 1rem;
+    color: green;
+    text-decoration: underline green 1px;
+}
+
+.nav ul li::after {
+    transition: all ease 1s;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform: scale(0);
+}
+
+.nav ul li::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    transform: scale(0);
+    transition: all ease 1s;
+}
+
+.nav ul li:hover::after,
+.nav ul li:hover::before {
+    transform: scale(1);
 }

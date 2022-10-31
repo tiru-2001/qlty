@@ -7,6 +7,10 @@
     background-attachment: fixed;
 }
 
+:root {
+    --boxsshadow: 8px 3px 8px 0px rgb(128, 114, 114);
+}
+
 .about-row {
     height: 100vh
 }
@@ -14,4 +18,35 @@
 .about {
     font-size: 3rem;
     color: maroon;
+    animation-name: margi;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.aboutImage {
+    background-image: url("/public/images/swiss.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: var(--boxsshadow)
+}
+
+.aboutcontentrow {
+    margin: 20px 10px;
+    padding: 20px 0px;
+    background-color: #ceedc6;
+    box-shadow: var(--boxsshadow);
+    border-radius: 5px;
+}
+
+.abouts {
+    background-color: #D1D9D9;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: var(--boxsshadow);
+}
+
+.abouts h6 {
+    line-height: 25px;
 }
