@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/qlty/static/css/main.1488c4c5.css",
+    "main.js": "/qlty/static/js/main.6c7c46d6.js",
+    "static/js/787.6cb7147e.chunk.js": "/qlty/static/js/787.6cb7147e.chunk.js",
+    "static/media/swiss.jpg": "/qlty/static/media/swiss.32db22816f2229e4a1c2.jpg",
+    "static/media/contact.jpg": "/qlty/static/media/contact.437c54f029f33c6541ad.jpg",
+    "static/media/service1.jpg": "/qlty/static/media/service1.df282ee6aa61c509ed16.jpg",
+    "static/media/about1.jpg": "/qlty/static/media/about1.f83ed1cf39c28311999c.jpg",
+    "static/media/home.jpg": "/qlty/static/media/home.8d37c630de20714ca50c.jpg",
+    "index.html": "/qlty/index.html",
+    "main.1488c4c5.css.map": "/qlty/static/css/main.1488c4c5.css.map",
+    "main.6c7c46d6.js.map": "/qlty/static/js/main.6c7c46d6.js.map",
+    "787.6cb7147e.chunk.js.map": "/qlty/static/js/787.6cb7147e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1488c4c5.css",
+    "static/js/main.6c7c46d6.js"
+  ]
+}
