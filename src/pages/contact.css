@@ -33,9 +33,23 @@
 
 .touchSub {
     padding: 20px 0px;
+    border: 2px solid green;
+    word-wrap: break-word;
 }
 
 .numbersmail {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width:1130px) {
+    .touchSub {
+        padding: 20px 0px;
+        border: 2px solid rgb(128, 68, 0);
+        word-wrap: break-word;
+        margin-top: 10px;
+    }
+    .gettouch {
+        padding: 20px 30px;
+    }
 }
